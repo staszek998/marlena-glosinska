@@ -1,0 +1,29 @@
+JUSTIN BIEBER - http://www.justinbiebermusic.com/
+
+-	naświeższe wydarzenia ('The Latest') + odnośnik 'czytaj więcej'
+-	drukowanymi literami
+-	krótkie info wprowadzające
+-	menu trzymające się cały czas góry strony
+-	ciekawy efekt zwinięcia menu do kompaktowego
+-	zapis do newsletter'a (na samym dole strony głównej)
+-	pokaz albumów całkiem spoko, ale kreski bez sensu
+-	linki do subskrybcji muzycznych są OK, ale w odpowiedniej zakładce z albumami / singlami
+-	linki do portali społecznościowych na górze (bo na dole nie od razu widać) + mają być widoczne razem z menu przyklejonym do góry strony
+-	osobna zakładka na kontakt
+
+
+SELENA GOMEZ - https://www.selenagomez.com/
+-	player muzyczny na górze zakładki 'music' (tej z albumami) (poniżej player'a albumy / single)
+
+
+SHAWN MENDES - http://www.shawnmendesofficial.com/
+-	bajer z newsletter'em na samym dole (MUST HAVE!)
+
+
+ED SHEERAN - http://www.edsheeran.com/photo
+-	zakładka 'zdjęcia' z fotkami z Insta
+
+
+KURT HUGO SCHNEIDER - http://www.kurthugoschneider.com/
+-	krótki tekst 'o mnie' pod newletter'em (który, przypominam, ma się czadersko WYŁANIAĆ)
+-	na podstronach zamiast pełnej nazwy 'Marlena Głosińska' widoczne tylko duże inicjały 'MG'
