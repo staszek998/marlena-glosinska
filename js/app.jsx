@@ -4,6 +4,7 @@ import ReactDOM from "react-dom";
 import { HashRouter, Route, Link, Switch, NavLink } from "react-router-dom";
 import TopBar from "./components/top-bar.jsx";
 import Home from "./pages/home.jsx";
+import Footer from './components/footer.jsx';
 import Error from "./components/error.jsx";
 
 class App extends React.Component {
@@ -20,6 +21,7 @@ class App extends React.Component {
             <Route component={Error} />
           </Switch>
         </HashRouter>
+        <Footer/>
       </div>
     );
   }

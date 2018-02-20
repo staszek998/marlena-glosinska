@@ -1,7 +1,9 @@
 @import 'helpers/all';
 @import 'base/reset';
-@import 'components/body';
-@import 'components/top-bar';
+@import 'base/body';
+@import 'base/top-bar';
+@import 'base/nav';
+@import 'base/footer';
 @import "pages/home";
 @import "pages/music";
 @import "pages/videos";

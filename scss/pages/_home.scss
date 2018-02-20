@@ -1,14 +1,14 @@
+@import '../components/home/header';
+@import '../components/home/latest-events';
+@import '../components/home/new-music';
+@import '../components/home/listen';
+@import '../components/home/newsletter';
+
+
 div.page-home {
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    header {
-        width: 100%;
-        height: 400px;
-        background-image: url('../images/marlena/image15.jpeg');
-        background-position: center;
-        background-size: cover;
-    }
 }

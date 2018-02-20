@@ -1,0 +1,10 @@
+@import '../../helpers/all';
+
+section.new-music {
+    width: 100%;
+    height: 200px;
+    background-color: $lightestRose;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
