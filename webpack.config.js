@@ -5,7 +5,7 @@ var HtmlWebpackPlugin = require("html-webpack-plugin");
 module.exports = {
   devtool: "cheap-eval-source-map",
   entry: {
-    main: ['whatwg-fetch', path.join(__dirname, "js", "zadanie01.jsx")]
+    main: ['whatwg-fetch', path.join(__dirname, "js", "app.jsx")]
   },
   output: {
     path: path.join(__dirname, "dist"),
@@ -40,7 +40,7 @@ module.exports = {
         })
       },
       {
-        test: /\.(png|jpeg|jpg|gif|woff|otf)$/,
+        test: /\.(png|jpeg|jpg|gif|ttf|woff|otf)$/,
         use: { loader: "file-loader" }
       }
     ]
