@@ -1,0 +1,29 @@
+@import '../helpers/all';
+@import '../components/music/singles';
+@import '../components/music/albums';
+@import '../components/music/eps';
+section.section-music {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+div.section-music__title,
+div.section-music__singles,
+div.section-music__albums,
+div.section-music__eps {
+    width: 100%;
+}
+
+div.section-music__title {
+    background-color: $musicPageTitle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    span {
+        font-size: 180px;
+        color: white;
+    }
+}

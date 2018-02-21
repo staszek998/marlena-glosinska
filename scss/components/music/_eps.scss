@@ -1,0 +1,68 @@
+@import '../../helpers/all';
+div.section-music__eps {
+    background-color: $musicPageEps;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    span {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+}
+
+div.section-music__eps__covers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    padding: 20px 60px;
+}
+
+div.ep__cover {
+    width: 160px;
+    height: 160px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.3);
+    &:before,
+    &:after {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+        top: 10px;
+        bottom: 10px;
+        left: 0;
+        right: 0;
+        border-radius: 100px / 10px;
+    }
+    &:after {
+        right: 10px;
+        left: auto;
+        transform: skew(8deg) rotate(3deg);
+    }
+    &:nth-child(1) {
+        background-image: url(../images/marlena/album-covers/cover-1.jpg);
+    }
+    &:nth-child(2) {
+        background-image: url(../images/marlena/album-covers/cover-2.jpg);
+    }
+    &:nth-child(3) {
+        background-image: url(../images/marlena/album-covers/cover-3.jpg);
+    }
+    &:nth-child(4) {
+        background-image: url(../images/marlena/album-covers/cover-4.jpg);
+    }
+}
+
+div.ep__cover-description {
+    height: 30px;
+    width: 100%;
+    background-color: rgba($color: white, $alpha: 0.5);
+    position: absolute;
+    bottom: 0;
+    padding: 5px;
+}
