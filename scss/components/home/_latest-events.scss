@@ -6,6 +6,24 @@ section.latest-events {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+}
+
+div.latest-events__background-text {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 0;
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    color: white;
+    width: 100%;
+    span {
+        white-space: nowrap;
+    }
 }
 
 div.latest-events__col {
@@ -14,6 +32,7 @@ div.latest-events__col {
     align-items: center;
     width: 33.33%;
     height: 100%;
+    z-index: 1;
     &:nth-child(1) {
         margin-left: 10px;
     }
@@ -28,9 +47,28 @@ div.latest-events__event {
     height: calc(100% - 50px);
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    // justify-content: center;
     align-items: center;
+    padding: 20px;
+    position: relative;
     span {
-        font-family: $bold;
+        font-family: $regular;
+        font-size: 32px;
+        align-self: flex-start;
+    }
+    p {
+        margin-top: 20px;
+        letter-spacing: 1px;
+    }
+    button {
+        position: absolute;
+        outline: none;
+        background-color: $homePageLatestEvents;
+        border: none;
+        font-family: $regular;
+        width: 164px;
+        height: 34px;
+        font-size: 14px;
+        bottom: 20px;
     }
 }
