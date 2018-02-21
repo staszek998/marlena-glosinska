@@ -9,21 +9,10 @@ export default class Listen extends React.Component {
   render() {
     return (
       <section className="listen">
-        <iframe
-          src="https://open.spotify.com/embed?uri=spotify:artist:6Vh6UDWfu9PUSXSzAaB3CW&theme=white"
-          width="300"
-          height="360"
-          frameBorder="none"
-          allowTransparency="true"
-        />
-        <div>
-            <span>IN CASE</span>
-            <span>YOU'RE HERE</span>
-            <span>JUST TO LISTEN</span>
-        </div>
+        <h1>IN CASE YOU'RE HERE JUST TO LISTEN</h1>
         <iframe
           src="https://open.spotify.com/embed?uri=spotify:user:spotify:playlist:37i9dQZF1DZ06evO45P0Eo&theme=white"
-          width="300"
+          width="523"
           height="360"
           frameBorder="0"
           allowTransparency="true"

@@ -12,10 +12,10 @@ export default class Nav extends React.Component {
         <div className="nav__menu-left">
           <ul>
             <li>
-              <Link to="/home">MUSIC</Link>
+              <Link to="/music">MUSIC</Link>
             </li>
             <li>
-              <Link to="/home">PHOTOS</Link>
+              <Link to="/photos">PHOTOS</Link>
             </li>
           </ul>
         </div>
@@ -25,10 +25,10 @@ export default class Nav extends React.Component {
         <div className="nav__menu-right">
           <ul>
             <li>
-              <Link to="/home">VIDEOS</Link>
+              <Link to="/videos">VIDEOS</Link>
             </li>
             <li>
-              <Link to="/home">CONTACT</Link>
+              <Link to="/contact">CONTACT</Link>
             </li>
           </ul>
         </div>

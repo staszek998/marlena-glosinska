@@ -5,6 +5,9 @@ import { HashRouter, Route, Link, Switch, NavLink } from "react-router-dom";
 import TopBar from "./components/top-bar.jsx";
 import Home from "./pages/home.jsx";
 import Music from "./pages/music.jsx";
+import Photos from "./pages/photos.jsx";
+import Videos from "./pages/videos.jsx";
+import Contact from "./pages/contact.jsx";
 import Footer from "./components/footer.jsx";
 import Error from "./components/error.jsx";
 
@@ -20,6 +23,9 @@ class App extends React.Component {
           <Switch>
             <Route exact path="/home" component={Home} />
             <Route exact path="/music" component={Music} />
+            <Route exact path="/photos" component={Photos} />
+            <Route exact path="/videos" component={Videos} />
+            <Route exact path="/contact" component={Contact} />
             <Route component={Error} />
           </Switch>
         </HashRouter>
