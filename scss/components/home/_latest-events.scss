@@ -1,12 +1,24 @@
 @import '../../helpers/all';
 section.latest-events {
     width: 100%;
-    height: 500px;
+    height: 550px;
     background-color: $homePageLatestEvents;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    h1 {
+        font-size: 20px;
+    }
+}
+
+div.latest-events__events {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
+    width: 100%;
+    height: 500px;;
 }
 
 div.latest-events__background-text {
