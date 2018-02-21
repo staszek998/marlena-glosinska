@@ -1,4 +1,23 @@
-$white: #ffebe6;
-$lightestRose: #ffdcd3;
-$lightRose: #ffcdc0;
-$rose: #ffaf9a;
+/* COLORS DEFINITION */
+
+$white: #FFE6E6;
+$lightestRose: #FFD3D3;
+$lightRose: #FFADAD;
+$rose: #FF9A9A;
+
+/* ASSIGNMENT TO PAGE PARTS */
+
+
+/* HOLISTIC */
+
+$body: $white;
+$topBar: $white;
+$footer: $white;
+$nav: $rose;
+
+/* HOME */
+
+$homePageLatestEvents: $lightestRose;
+$homePageNewMusic: $lightRose;
+$homePageListen: $lightestRose;
+$homePageNewsletter: $lightRose;

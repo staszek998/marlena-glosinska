@@ -10,12 +10,23 @@ export default class TopBar extends React.Component {
     return (
       <div className="top-bar">
         <div className="top-bar__content">
-          <span className='top-bar__text' >FIND ME ON</span>
+          <span className="top-bar__text">FIND ME ON</span>
 
-          <div className='top-bar__icon' ></div>
-          <div className='top-bar__icon' ></div>
-          <div className='top-bar__icon' ></div>
-          <div className='top-bar__icon' ></div>
+          <div className="top-bar__icon">
+            <i className="fab fa-facebook-f" />
+          </div>
+          <div className="top-bar__icon">
+            <i className="fab fa-youtube" />
+          </div>
+          <div className="top-bar__icon">
+            <i className="fab fa-instagram" />
+          </div>
+          <div className="top-bar__icon">
+            <i className="fab fa-linkedin-in" />
+          </div>
+          <div className="top-bar__icon">
+            <i className="fab fa-snapchat-ghost" />
+          </div>
         </div>
       </div>
     );
