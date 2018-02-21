@@ -14,7 +14,9 @@ export default class Home extends React.Component {
   render() {
     return (
       <div className="page-home">
-        <header />
+        <header>
+          {/* <div>Marlena Głosińska</div> */}
+        </header>
         <Nav />
         <LatestEvents />
         <NewMusic />

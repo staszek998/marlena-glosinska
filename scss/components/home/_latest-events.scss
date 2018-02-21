@@ -1,5 +1,4 @@
 @import '../../helpers/all';
-
 section.latest-events {
     width: 100%;
     height: 500px;
@@ -7,4 +6,31 @@ section.latest-events {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+div.latest-events__col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33.33%;
+    height: 100%;
+    &:nth-child(1) {
+        margin-left: 10px;
+    }
+    &:nth-child(3) {
+        margin-right: 10px;
+    }
+}
+
+div.latest-events__event {
+    background-color: rgba($color: white, $alpha: 0.5);
+    width: calc(100% - 30px);
+    height: calc(100% - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    span {
+        font-family: $bold;
+    }
 }
