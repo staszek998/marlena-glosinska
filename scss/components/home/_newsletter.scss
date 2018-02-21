@@ -4,8 +4,7 @@ section.newsletter {
     height: 400px;
     background-color: $homePageNewsletter;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 20px 60px;
     h1 {
@@ -19,9 +18,33 @@ section.newsletter {
         justify-content: space-between;
         align-items: center;
         padding: 0 20px;
-        input, select {
+        input,
+        select {
             width: 100%;
+            background-color: white;
+            outline: none;
+            border: none;
+            height: 40px;
+            font-family: $regular;
+            padding: 10px;
         }
+    }
+    div.vertical-line {
+        height: 100%;
+        border-right: 5px solid black;
+    }
+}
+
+div.newsletter__about {
+    width: 33.33%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    p {
+        text-align: justify;
     }
 }
 
