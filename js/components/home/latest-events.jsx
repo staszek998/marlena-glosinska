@@ -30,20 +30,9 @@ export default class LatestEvents extends React.Component {
         <div className="latest-events__events">
           <div className="latest-events__col">
             <Event
-              date="date"
-              name="name"
-              venue="venue"
-              description="[DESCRIPTION] Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
-              sapiente dignissimos natus doloremque quaerat. Perferendis
-              voluptate at dolores assumenda laboriosam non maiores, adipisci,
-              veritatis dolorum beatae sit quas incidunt nisi?"
-            />
-          </div>
-          <div className="latest-events__col">
-            <Event
-              date="12.12.2012"
-              name="apocalypse"
-              venue="stodoła, warsaw (pl)"
+              date="15.04.2018"
+              name="best voice of warsaw"
+              venue="hard rock cafe warsaw"
               description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
               sapiente dignissimos natus doloremque quaerat. Perferendis
               voluptate at dolores assumenda laboriosam non maiores, adipisci,
@@ -52,9 +41,20 @@ export default class LatestEvents extends React.Component {
           </div>
           <div className="latest-events__col">
             <Event
-              date="09.10.2018"
-              name="stan's birthday"
-              venue="promenada, warsaw (pl)"
+              date="27.05.2018"
+              name="fly-high 2k18"
+              venue="tauron arena, cracow"
+              description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
+              sapiente dignissimos natus doloremque quaerat. Perferendis
+              voluptate at dolores assumenda laboriosam non maiores, adipisci,
+              veritatis dolorum beatae sit quas incidunt nisi?"
+            />
+          </div>
+          <div className="latest-events__col">
+            <Event
+              date="05.07.2018"
+              name="open'er festival 2018"
+              venue="gdynia"
               description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
               sapiente dignissimos natus doloremque quaerat. Perferendis
               voluptate at dolores assumenda laboriosam non maiores, adipisci,
