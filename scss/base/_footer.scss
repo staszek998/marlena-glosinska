@@ -21,9 +21,10 @@ div.footer__icons {
 div.footer__logo {
   width: 50px;
   justify-content: center;
-  span {
+  a {
     font-family: "Tangerine Bold";
     font-size: 41px;
+    text-decoration: none;
   }
 }
 

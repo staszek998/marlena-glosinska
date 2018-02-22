@@ -37,7 +37,7 @@ export default class Footer extends React.Component {
           </span>
         </div>
         <div className="footer__logo">
-          <span>MG</span>
+          <Link to='/'>MG</Link>
         </div>
         <div className="footer__icons">
           <Icon
