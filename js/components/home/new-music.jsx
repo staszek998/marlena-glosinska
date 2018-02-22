@@ -9,7 +9,7 @@ export default class NewMusic extends React.Component {
   render() {
     return (
       <section className="new-music">
-        <h1>CAN'T COME? I'VE GOT YOU COVERED</h1>
+        <h1 className='section-header' >CAN'T COME? I'VE GOT YOU COVERED</h1>
         <div className="new-music__albums">
           <div className="new-music__album">
             <div className="new-music__album-description">album name</div>

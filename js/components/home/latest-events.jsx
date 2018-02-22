@@ -26,7 +26,7 @@ export default class LatestEvents extends React.Component {
   render() {
     return (
       <section className="latest-events">
-        <h1>COME AND SEE ME</h1>
+        <h1 className='section-header' >COME AND SEE ME</h1>
         <div className="latest-events__events">
           <div className="latest-events__col">
             <Event

@@ -1,18 +1,8 @@
 header {
     width: 100%;
     height: 400px;
-    background-image: url('../images/marlena/image15.jpeg');
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    div {
-        background-color: rgba($color: $rose, $alpha: 0.5);
-        width: 100%;
-        height: 100px;
-        position: absolute;
-        bottom: 0;
-        padding: 20px;
-        font-size: 70px;
-        text-align: center;
-    }
+    background-image: url(../images/header/header.jpg);
+    background-position: -50px -110px;
+    background-repeat: no-repeat;
+    background-size: 106%;
 }
