@@ -18,7 +18,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="main-container">
-      <div className='nav-compensator' ></div>
+        <div className="nav-compensator" />
         <TopBar />
         <HashRouter>
           <Switch>
@@ -39,27 +39,30 @@ class App extends React.Component {
 document.addEventListener("DOMContentLoaded", function() {
   ReactDOM.render(<App />, document.getElementById("app"));
 
-  let nav = document.querySelector("nav");
-  let navCompensator = document.querySelector('.nav-compensator');
-  let docked = false;
+  // let nav = document.querySelector("nav");
+  // let navCompensator = document.querySelector(".nav-compensator");
+  // let docked = false;
 
-  window.onscroll = function() {
-    let position = nav.getBoundingClientRect().y;
-    // console.log(position);
+  // window.onscroll = () => {
+  //   let scrollTop = document.documentElement.scrollTop;
+  //   let pathName = this.props.location.pathname;
 
-    let scrollTop = document.documentElement.scrollTop;
-
-    console.log(document.documentElement.scrollTop);
-
-    if (scrollTop === 450) {
-      nav.classList.add("docked");
-      console.log('Class docked added');
-      navCompensator.style.height = '70px';
-
-    } else if (scrollTop < 450) {
-      nav.classList.remove("docked");
-      console.log('Class docked removed');
-      navCompensator.style.height = '0px';      
-    }
-  };
+  //   if (pathName === "/") {
+  //     if (scrollTop > 450) {
+  //       nav.classList.add("docked");
+  //       navCompensator.style.height = "70px";
+  //     } else if (scrollTop < 450) {
+  //       nav.classList.remove("docked");
+  //       navCompensator.style.height = "0px";
+  //     }
+  //   } else {
+  //     if (scrollTop > 50) {
+  //       nav.classList.add("docked");
+  //       navCompensator.style.height = "70px";
+  //     } else if (scrollTop < 50) {
+  //       nav.classList.remove("docked");
+  //       navCompensator.style.height = "0px";
+  //     }
+  //   }
+  // };
 });

@@ -5,7 +5,8 @@ div.page-videos__left {
 
 div.page-videos__right {
     background-color: $videosPageRight;
-    span, p {
+    span,
+    p {
         text-align: right;
     }
 }
@@ -23,6 +24,9 @@ div.page-videos__right {
         background-color: $white;
         padding: 20px;
         height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
     span {
         font-size: 27px;
@@ -32,5 +36,26 @@ div.page-videos__right {
     p {
         letter-spacing: 1px;
         margin-top: 20px;
+    }
+    iframe {
+        position: relative;
+        box-shadow: 0 1px 10px rgba(0, 0, 0, 0.3);
+        &:before,
+        &:after {
+            content: "";
+            position: absolute;
+            z-index: -1;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+            top: 10px;
+            bottom: 10px;
+            left: 0;
+            right: 0;
+            border-radius: 100px / 10px;
+        }
+        &:after {
+            right: 10px;
+            left: auto;
+            transform: skew(8deg) rotate(3deg);
+        }
     }
 }
