@@ -14,7 +14,7 @@ export default class Home extends React.Component {
   }
   render() {
     return (
-      <div className="page-home">
+      <div className="page-home transition-item">
         <header />
         <Nav />
         <LatestEvents />

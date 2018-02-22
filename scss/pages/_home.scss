@@ -3,15 +3,12 @@
 @import '../components/home/new-music';
 @import '../components/home/listen';
 @import '../components/home/newsletter';
-
-
 div.page-home {
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
     div.newsletter-and-footer-container {
         position: fixed;
         bottom: 0;
@@ -20,7 +17,6 @@ div.page-home {
         z-index: -1;
         width: 960px;
     }
-
     div.compensator {
         height: 450px;
     }

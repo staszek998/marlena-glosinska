@@ -2,6 +2,7 @@ require("../scss/main.scss");
 import React from "react";
 import ReactDOM from "react-dom";
 import { HashRouter, Route, Link, Switch, NavLink } from "react-router-dom";
+import { AnimatedSwitch } from "react-router-transition";
 import TopBar from "./components/top-bar.jsx";
 import Home from "./pages/home.jsx";
 import Music from "./pages/music.jsx";
@@ -21,14 +22,19 @@ class App extends React.Component {
         <div className="nav-compensator" />
         <TopBar />
         <HashRouter>
-          <Switch>
-            <Route exact path="/home" component={Home} />
+          <AnimatedSwitch
+            atEnter={{ opacity: 0 }}
+            atLeave={{ opacity: 0 }}
+            atActive={{ opacity: 1 }}
+            className="switch-wrapper"
+          >
+            <Route exact path="/" component={Home} />
             <Route exact path="/music" component={Music} />
             <Route exact path="/photos" component={Photos} />
             <Route exact path="/videos" component={Videos} />
             <Route exact path="/contact" component={Contact} />
             <Route component={Error} />
-          </Switch>
+          </AnimatedSwitch>
         </HashRouter>
         {/* <Footer /> */}
       </div>

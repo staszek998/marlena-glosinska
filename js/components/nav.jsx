@@ -20,7 +20,7 @@ export default class Nav extends React.Component {
           </ul>
         </div>
         <div className="nav__logo">
-          <Link to="/home">MG</Link>
+          <Link to="/">MG</Link>
         </div>
         <div className="nav__menu-right">
           <ul>
