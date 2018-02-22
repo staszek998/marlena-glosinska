@@ -2,6 +2,8 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { HashRouter, Route, Link, Switch, NavLink } from "react-router-dom";
 import Nav from "../components/nav.jsx";
+import Footer from "../components/footer.jsx";
+
 
 class Singles extends React.Component {
   constructor(props) {
@@ -111,6 +113,7 @@ export default class Music extends React.Component {
       <div className="page-home">
         <Nav />
         <MusicComponent />
+        <Footer/>
       </div>
     );
   }

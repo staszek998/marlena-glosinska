@@ -1,0 +1,36 @@
+@import '../helpers/all';
+div.page-videos__left {
+    background-color: $videosPageLeft;
+}
+
+div.page-videos__right {
+    background-color: $videosPageRight;
+    span, p {
+        text-align: right;
+    }
+}
+
+div.page-videos__left,
+div.page-videos__right {
+    width: 100%;
+    height: 355px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+    div {
+        width: 330px;
+        background-color: $white;
+        padding: 20px;
+        height: 100%;
+    }
+    span {
+        font-size: 27px;
+        font-family: $bold;
+        width: 100%;
+    }
+    p {
+        letter-spacing: 1px;
+        margin-top: 20px;
+    }
+}

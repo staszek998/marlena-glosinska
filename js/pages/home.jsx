@@ -6,6 +6,7 @@ import LatestEvents from "../components/home/latest-events.jsx";
 import NewMusic from "../components/home/new-music.jsx";
 import Listen from "../components/home/listen.jsx";
 import Newsletter from "../components/home/newsletter.jsx";
+import Footer from "../components/footer.jsx";
 
 export default class Home extends React.Component {
   constructor(props) {
@@ -19,7 +20,11 @@ export default class Home extends React.Component {
         <LatestEvents />
         <NewMusic />
         <Listen />
-        <Newsletter />
+        <div className='compensator' ></div>
+        <div className='newsletter-and-footer-container' >
+          <Newsletter />
+          <Footer />
+        </div>
       </div>
     );
   }

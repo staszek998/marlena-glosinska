@@ -18,6 +18,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="main-container">
+      <div className='nav-compensator' ></div>
         <TopBar />
         <HashRouter>
           <Switch>
@@ -29,7 +30,7 @@ class App extends React.Component {
             <Route component={Error} />
           </Switch>
         </HashRouter>
-        <Footer />
+        {/* <Footer /> */}
       </div>
     );
   }
@@ -37,4 +38,28 @@ class App extends React.Component {
 
 document.addEventListener("DOMContentLoaded", function() {
   ReactDOM.render(<App />, document.getElementById("app"));
+
+  let nav = document.querySelector("nav");
+  let navCompensator = document.querySelector('.nav-compensator');
+  let docked = false;
+
+  window.onscroll = function() {
+    let position = nav.getBoundingClientRect().y;
+    // console.log(position);
+
+    let scrollTop = document.documentElement.scrollTop;
+
+    console.log(document.documentElement.scrollTop);
+
+    if (scrollTop === 450) {
+      nav.classList.add("docked");
+      console.log('Class docked added');
+      navCompensator.style.height = '70px';
+
+    } else if (scrollTop < 450) {
+      nav.classList.remove("docked");
+      console.log('Class docked removed');
+      navCompensator.style.height = '0px';      
+    }
+  };
 });
