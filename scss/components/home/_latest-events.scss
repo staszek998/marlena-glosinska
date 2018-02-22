@@ -7,6 +7,7 @@ section.latest-events {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    z-index: 1;
     h1 {
         margin-top: 10px;
     }

@@ -32,6 +32,18 @@ section.newsletter {
     }
 }
 
+div.signup-confirmation {
+    width: 33.33%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    h1 {
+        text-align: center;
+    }
+}
+
 div.newsletter__about {
     width: 33.33%;
     height: 100%;

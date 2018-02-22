@@ -7,6 +7,7 @@ section.new-music {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  z-index: 1;
 }
 
 div.new-music__albums {

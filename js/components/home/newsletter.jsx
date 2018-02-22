@@ -5,24 +5,43 @@ import { HashRouter, Route, Link, Switch, NavLink } from "react-router-dom";
 class SignUp extends React.Component {
   constructor(props) {
     super(props);
+    this.state = {
+      sent: false
+    };
   }
+
+  signUpHandler = event => {
+    event.preventDefault();
+    this.setState({
+      sent: true
+    });
+  };
+
   render() {
-    return (
-      <form action="submit">
-        <h1 className="section-header">LET'S STAY IN TOUCH</h1>
-        <select name="title" id="title">
-          <option value="" disabled selected>
-            Title
-          </option>
-          <option value="Mr.">Mr.</option>
-          <option value="Mrs.">Mrs.</option>
-        </select>
-        <input type="text" name="first-name" placeholder="First name" />
-        <input type="text" name="last-name" placeholder="Last name" />
-        <input type="email" name="email" placeholder="E-mail" />
-        <input type="submit" value="SIGN UP" />
-      </form>
-    );
+    if (this.state.sent) {
+      return (
+        <div className='signup-confirmation' >
+          <h1 className='section-header' >FROM NOW ON, YOU'RE ON OUR MAILING LIST</h1>
+        </div>
+      );
+    } else {
+      return (
+        <form action="submit">
+          <h1 className="section-header">LET'S STAY IN TOUCH</h1>
+          <select name="title" id="title">
+            <option value="" disabled selected>
+              Title
+            </option>
+            <option value="Mr.">Mr.</option>
+            <option value="Mrs.">Mrs.</option>
+          </select>
+          <input type="text" name="first-name" placeholder="First name" />
+          <input type="text" name="last-name" placeholder="Last name" />
+          <input type="email" name="email" placeholder="E-mail" />
+          <input type="submit" value="SIGN UP" onClick={this.signUpHandler} />
+        </form>
+      );
+    }
   }
 }
 
