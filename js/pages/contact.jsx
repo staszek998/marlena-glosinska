@@ -12,7 +12,7 @@ export default class Contact extends React.Component {
     return (
       <div className="page-contact">
         <Nav />
-        <div className="section-music__title">
+        <div className="section__title">
           <span>CONTACT</span>
         </div>
         <div className="page-contact__main">

@@ -58,7 +58,7 @@ export default class Videos extends React.Component {
     return (
       <div className="page-videos">
         <Nav />
-        <div className="section-music__title">
+        <div className="section__title">
           <span>VIDEOS</span>
         </div>
         <VideoOnTheLeft

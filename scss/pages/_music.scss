@@ -10,14 +10,14 @@ section.section-music {
     width: 100%;
 }
 
-div.section-music__title,
+div.section__title,
 div.section-music__singles,
 div.section-music__albums,
 div.section-music__eps {
     width: 100%;
 }
 
-div.section-music__title {
+div.section__title {
     background-color: $musicPageTitle;
     display: flex;
     justify-content: center;
