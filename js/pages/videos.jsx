@@ -3,52 +3,9 @@ import ReactDOM from "react-dom";
 import { HashRouter, Route, Link, Switch, NavLink } from "react-router-dom";
 import Nav from "../components/nav.jsx";
 import Footer from "../components/footer.jsx";
+import VideoOnTheLeft from '../components/videos/videoOnTheLeft.jsx'
+import VideoOnTheRight from '../components/videos/videoOnTheRight.jsx'
 
-class VideoOnTheRight extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-  render() {
-    return (
-      <div className="page-videos__right">
-        <div>
-          <span>{this.props.title.toUpperCase()}</span>
-          <p>{this.props.description}</p>
-        </div>
-        <iframe
-          width="560"
-          height="315"
-          src={this.props.src}
-          frameBorder="0"
-          allowFullScreen
-        />
-      </div>
-    );
-  }
-}
-
-class VideoOnTheLeft extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-  render() {
-    return (
-      <div className="page-videos__left">
-        <iframe
-          width="560"
-          height="315"
-          src={this.props.src}
-          frameBorder="0"
-          allowFullScreen
-        />
-        <div>
-          <span>{this.props.title.toUpperCase()}</span>
-          <p>{this.props.description}</p>
-        </div>
-      </div>
-    );
-  }
-}
 
 export default class Videos extends React.Component {
   constructor(props) {
