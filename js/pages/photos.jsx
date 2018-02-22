@@ -151,7 +151,7 @@ class GalleryComponent extends React.Component {
   render() {
     return (
       <div className="page-photos-gallery">
-        <Gallery photos={PHOTO_SET} />;
+        <Gallery photos={PHOTO_SET} />
       </div>
     );
   }

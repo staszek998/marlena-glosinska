@@ -1,0 +1,76 @@
+@import "../helpers/all";
+div.page-contact__main {
+  background-color: $contactPageMain;
+  height: 500px;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  h1 {
+    font-size: 20px;
+    font-family: $bold;
+  }
+  div.page-contact__business,
+  div.page-contact__direct {
+    padding: 20px;
+    background-color: $lightestRose;
+    width: 49%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    form {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      height: 78%;
+      width: 100%;
+      div {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: 30px;
+        padding: 0;
+        input,
+        select {
+          width: 48%;
+          background-color: white;
+          outline: none;
+          border: none;
+          height: 40px;
+          font-family: $regular;
+          padding: 10px;
+          color: black;
+        }
+      }
+      input {
+        width: 100%;
+        background-color: white;
+        outline: none;
+        border: none;
+        height: 40px;
+        font-family: $regular;
+        padding: 10px;
+        color: black;
+      }
+      textarea {
+        width: 100%;
+        background-color: white;
+        outline: none;
+        border: none;
+        height: 180px;
+        font-family: $regular;
+        padding: 10px;
+        color: black;
+      }
+    }
+  }
+  a {
+      color: black;
+  }
+}
