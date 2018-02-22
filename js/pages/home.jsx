@@ -16,7 +16,7 @@ export default class Home extends React.Component {
     return (
       <div className="page-home transition-item">
         <header />
-        <Nav />
+        <Nav navClass='home' />
         <LatestEvents />
         <NewMusic />
         <Listen />

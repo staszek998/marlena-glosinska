@@ -8,7 +8,7 @@ export default class Nav extends React.Component {
   }
   render() {
     return (
-      <nav className="nav">
+      <nav className={this.props.navClass + ' nav'}>
         <div className="nav__menu-left">
           <ul>
             <li>

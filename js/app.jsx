@@ -36,7 +36,6 @@ class App extends React.Component {
             <Route component={Error} />
           </AnimatedSwitch>
         </HashRouter>
-        {/* <Footer /> */}
       </div>
     );
   }
@@ -45,30 +44,32 @@ class App extends React.Component {
 document.addEventListener("DOMContentLoaded", function() {
   ReactDOM.render(<App />, document.getElementById("app"));
 
-  // let nav = document.querySelector("nav");
-  // let navCompensator = document.querySelector(".nav-compensator");
-  // let docked = false;
+  let navCompensator = document.querySelector(".nav-compensator");
 
-  // window.onscroll = () => {
-  //   let scrollTop = document.documentElement.scrollTop;
-  //   let pathName = this.props.location.pathname;
+  window.onscroll = () => {
+    let scrollTop = document.documentElement.scrollTop;
+    let nav = document.querySelector("nav");
 
-  //   if (pathName === "/") {
-  //     if (scrollTop > 450) {
-  //       nav.classList.add("docked");
-  //       navCompensator.style.height = "70px";
-  //     } else if (scrollTop < 450) {
-  //       nav.classList.remove("docked");
-  //       navCompensator.style.height = "0px";
-  //     }
-  //   } else {
-  //     if (scrollTop > 50) {
-  //       nav.classList.add("docked");
-  //       navCompensator.style.height = "70px";
-  //     } else if (scrollTop < 50) {
-  //       nav.classList.remove("docked");
-  //       navCompensator.style.height = "0px";
-  //     }
-  //   }
-  // };
+    if (nav.classList.contains("home")) {
+      if (scrollTop > 450) {
+        nav.classList.add("docked");
+        navCompensator.style.height = "70px";
+        console.log(`class docked added`);
+      } else if (scrollTop < 450) {
+        nav.classList.remove("docked");
+        navCompensator.style.height = "0px";
+        console.log(`class docked removed`);
+      }
+    } else {
+      if (scrollTop > 50) {
+        nav.classList.add("docked");
+        navCompensator.style.height = "70px";
+        console.log(`class docked added`);
+      } else if (scrollTop < 50) {
+        nav.classList.remove("docked");
+        navCompensator.style.height = "0px";
+        console.log(`class docked removed`);
+      }
+    }
+  };
 });
