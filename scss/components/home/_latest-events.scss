@@ -82,7 +82,7 @@ div.latest-events__event {
     flex-wrap: wrap;
     @media only screen and (min-width: 1224px) {
         width: calc(100% - 30px);
-        height: calc(100% - 50px);
+        height: calc(100% - 50px) !important; 
         flex-direction: column;
         height: 100px;
         flex-wrap: initial;
