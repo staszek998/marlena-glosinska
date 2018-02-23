@@ -28,6 +28,7 @@
     "node-sass": "^4.7.2",
     "react-photo-gallery": "^6.0.22",
     "react-redux": "^5.0.7",
+    "react-responsive": "^4.0.4",
     "react-router-dom": "^4.2.2",
     "react-router-page-transition": "^3.0.2",
     "react-router-transition": "^1.2.1",
