@@ -1,0 +1,1944 @@
+/* COLORS DEFINITION */
+/* ASSIGNMENT TO PAGE PARTS */
+/* HOLISTIC */
+/* HOME */
+/* MUSIC */
+/* PHOTOS */
+/* VIDEOS */
+/* CONTACT */
+@font-face {
+  font-family: "Century Gothic Regular";
+  src: url(09f6b2ba02572f19a7d7dd2b5f6494ad.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Century Gothic Bold";
+  src: url(bc420c1c2b98e2ee8b2a75c1ce1fe083.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Century Gothic Italic";
+  src: url(89d1d828dd7407e8e5ff6aa83cc5b294.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Century Gothic Bold Italic";
+  src: url(abd76d61050c97ab0e7bf2db2d9bd5ad.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Classica One";
+  src: url(97052935e5f6b5b33e93cf197faf129e.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Cookie Regular";
+  src: url(f20b07e1e1ac014b4fd4a86b9c10cfef.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Great Vibes Regular";
+  src: url(5bf06596a053153248631d74f9fc4e28.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Kaushan Script Regular";
+  src: url(51d11a72b39f33f909abddc723d66f03.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Sacramento Regular";
+  src: url(c3264a2601f855aef183e1892c5504db.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Satisfy Regular";
+  src: url(50c629cb64b3a3c3ea5df76558888e9c.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Shelly Allegro C";
+  src: url(32287a1491c8739be360bb2e38b3644a.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Tangerine Bold";
+  src: url(ba83db53ea0a5abd5eaea8595793c9df.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Tangerine Regular";
+  src: url(13dd711b61d355fd1609732d1f22249f.ttf) format("truetype"); }
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol,
+ul {
+  list-style: none; }
+
+blockquote,
+q {
+  quotes: none; }
+
+blockquote:before, blockquote:after {
+  content: '';
+  content: none; }
+
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* COLORS DEFINITION */
+/* ASSIGNMENT TO PAGE PARTS */
+/* HOLISTIC */
+/* HOME */
+/* MUSIC */
+/* PHOTOS */
+/* VIDEOS */
+/* CONTACT */
+@font-face {
+  font-family: "Century Gothic Regular";
+  src: url(09f6b2ba02572f19a7d7dd2b5f6494ad.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Century Gothic Bold";
+  src: url(bc420c1c2b98e2ee8b2a75c1ce1fe083.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Century Gothic Italic";
+  src: url(89d1d828dd7407e8e5ff6aa83cc5b294.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Century Gothic Bold Italic";
+  src: url(abd76d61050c97ab0e7bf2db2d9bd5ad.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Classica One";
+  src: url(97052935e5f6b5b33e93cf197faf129e.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Cookie Regular";
+  src: url(f20b07e1e1ac014b4fd4a86b9c10cfef.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Great Vibes Regular";
+  src: url(5bf06596a053153248631d74f9fc4e28.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Kaushan Script Regular";
+  src: url(51d11a72b39f33f909abddc723d66f03.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Sacramento Regular";
+  src: url(c3264a2601f855aef183e1892c5504db.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Satisfy Regular";
+  src: url(50c629cb64b3a3c3ea5df76558888e9c.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Shelly Allegro C";
+  src: url(32287a1491c8739be360bb2e38b3644a.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Tangerine Bold";
+  src: url(ba83db53ea0a5abd5eaea8595793c9df.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Tangerine Regular";
+  src: url(13dd711b61d355fd1609732d1f22249f.ttf) format("truetype"); }
+
+body {
+  background-color: #FFE6E6;
+  font-family: 'Century Gothic Regular'; }
+
+* {
+  box-sizing: border-box; }
+
+.section-header {
+  font-size: 20px; }
+
+.switch-wrapper {
+  position: relative; }
+
+.switch-wrapper > div {
+  position: absolute; }
+
+/* COLORS DEFINITION */
+/* ASSIGNMENT TO PAGE PARTS */
+/* HOLISTIC */
+/* HOME */
+/* MUSIC */
+/* PHOTOS */
+/* VIDEOS */
+/* CONTACT */
+@font-face {
+  font-family: "Century Gothic Regular";
+  src: url(09f6b2ba02572f19a7d7dd2b5f6494ad.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Century Gothic Bold";
+  src: url(bc420c1c2b98e2ee8b2a75c1ce1fe083.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Century Gothic Italic";
+  src: url(89d1d828dd7407e8e5ff6aa83cc5b294.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Century Gothic Bold Italic";
+  src: url(abd76d61050c97ab0e7bf2db2d9bd5ad.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Classica One";
+  src: url(97052935e5f6b5b33e93cf197faf129e.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Cookie Regular";
+  src: url(f20b07e1e1ac014b4fd4a86b9c10cfef.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Great Vibes Regular";
+  src: url(5bf06596a053153248631d74f9fc4e28.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Kaushan Script Regular";
+  src: url(51d11a72b39f33f909abddc723d66f03.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Sacramento Regular";
+  src: url(c3264a2601f855aef183e1892c5504db.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Satisfy Regular";
+  src: url(50c629cb64b3a3c3ea5df76558888e9c.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Shelly Allegro C";
+  src: url(32287a1491c8739be360bb2e38b3644a.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Tangerine Bold";
+  src: url(ba83db53ea0a5abd5eaea8595793c9df.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Tangerine Regular";
+  src: url(13dd711b61d355fd1609732d1f22249f.ttf) format("truetype"); }
+
+div.top-bar {
+  width: 100%;
+  height: 50px;
+  background-color: #FFE6E6;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  font-family: "Century Gothic Regular";
+  /*  */ }
+  div.top-bar div.top-bar__content {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center;
+    -ms-flex-align: center;
+        align-items: center;
+    width: 50%;
+    height: 100%; }
+  div.top-bar span.top-bar__text {
+    margin-right: 10px; }
+  div.top-bar div.top-bar__icon {
+    width: 40px;
+    height: 40px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center;
+    -ms-flex-align: center;
+        align-items: center; }
+  div.top-bar a {
+    color: black; }
+
+/* COLORS DEFINITION */
+/* ASSIGNMENT TO PAGE PARTS */
+/* HOLISTIC */
+/* HOME */
+/* MUSIC */
+/* PHOTOS */
+/* VIDEOS */
+/* CONTACT */
+@font-face {
+  font-family: "Century Gothic Regular";
+  src: url(09f6b2ba02572f19a7d7dd2b5f6494ad.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Century Gothic Bold";
+  src: url(bc420c1c2b98e2ee8b2a75c1ce1fe083.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Century Gothic Italic";
+  src: url(89d1d828dd7407e8e5ff6aa83cc5b294.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Century Gothic Bold Italic";
+  src: url(abd76d61050c97ab0e7bf2db2d9bd5ad.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Classica One";
+  src: url(97052935e5f6b5b33e93cf197faf129e.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Cookie Regular";
+  src: url(f20b07e1e1ac014b4fd4a86b9c10cfef.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Great Vibes Regular";
+  src: url(5bf06596a053153248631d74f9fc4e28.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Kaushan Script Regular";
+  src: url(51d11a72b39f33f909abddc723d66f03.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Sacramento Regular";
+  src: url(c3264a2601f855aef183e1892c5504db.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Satisfy Regular";
+  src: url(50c629cb64b3a3c3ea5df76558888e9c.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Shelly Allegro C";
+  src: url(32287a1491c8739be360bb2e38b3644a.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Tangerine Bold";
+  src: url(ba83db53ea0a5abd5eaea8595793c9df.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Tangerine Regular";
+  src: url(13dd711b61d355fd1609732d1f22249f.ttf) format("truetype"); }
+
+nav.nav {
+  width: 960px;
+  height: 70px;
+  background-color: white;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  z-index: 2; }
+
+div.nav__logo,
+div.nav__menu-left,
+div.nav__menu-right {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center; }
+  div.nav__logo a,
+  div.nav__menu-left a,
+  div.nav__menu-right a {
+    text-decoration: none;
+    color: black; }
+
+div.nav__logo {
+  height: 100%;
+  width: 150px;
+  font-size: 70px;
+  font-family: 'Tangerine Bold'; }
+
+div.nav__menu-left,
+div.nav__menu-right {
+  height: 100%;
+  width: 300px; }
+  div.nav__menu-left li,
+  div.nav__menu-right li {
+    display: inline;
+    margin: 0 20px; }
+  div.nav__menu-left a,
+  div.nav__menu-right a {
+    font-size: 20px; }
+
+.docked {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 99; }
+
+/* COLORS DEFINITION */
+/* ASSIGNMENT TO PAGE PARTS */
+/* HOLISTIC */
+/* HOME */
+/* MUSIC */
+/* PHOTOS */
+/* VIDEOS */
+/* CONTACT */
+@font-face {
+  font-family: "Century Gothic Regular";
+  src: url(09f6b2ba02572f19a7d7dd2b5f6494ad.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Century Gothic Bold";
+  src: url(bc420c1c2b98e2ee8b2a75c1ce1fe083.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Century Gothic Italic";
+  src: url(89d1d828dd7407e8e5ff6aa83cc5b294.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Century Gothic Bold Italic";
+  src: url(abd76d61050c97ab0e7bf2db2d9bd5ad.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Classica One";
+  src: url(97052935e5f6b5b33e93cf197faf129e.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Cookie Regular";
+  src: url(f20b07e1e1ac014b4fd4a86b9c10cfef.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Great Vibes Regular";
+  src: url(5bf06596a053153248631d74f9fc4e28.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Kaushan Script Regular";
+  src: url(51d11a72b39f33f909abddc723d66f03.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Sacramento Regular";
+  src: url(c3264a2601f855aef183e1892c5504db.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Satisfy Regular";
+  src: url(50c629cb64b3a3c3ea5df76558888e9c.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Shelly Allegro C";
+  src: url(32287a1491c8739be360bb2e38b3644a.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Tangerine Bold";
+  src: url(ba83db53ea0a5abd5eaea8595793c9df.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Tangerine Regular";
+  src: url(13dd711b61d355fd1609732d1f22249f.ttf) format("truetype"); }
+
+footer {
+  width: 100%;
+  height: 50px;
+  background-color: #FFE6E6;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  padding: 0 60px; }
+  footer a {
+    color: black; }
+
+div.footer__copyright,
+div.footer__icons {
+  width: calc(50% - 25px); }
+
+div.footer__logo {
+  width: 50px;
+  -ms-flex-pack: center;
+      justify-content: center; }
+  div.footer__logo a {
+    font-family: "Tangerine Bold";
+    font-size: 41px;
+    text-decoration: none; }
+
+div.footer__icons,
+div.footer__logo,
+div.footer__copyright {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center; }
+
+div.footer__icons {
+  -ms-flex-pack: end;
+      justify-content: flex-end; }
+
+div.footer__copyright {
+  -ms-flex-pack: start;
+      justify-content: flex-start; }
+  div.footer__copyright span {
+    font-size: 14px; }
+
+div.footer__icon {
+  width: 55px;
+  height: 40px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center; }
+  div.footer__icon i {
+    font-size: 20px; }
+
+header {
+  width: 100%;
+  height: 400px;
+  background-image: url(42af3f450af94f748381a3f76ee96734.jpg);
+  background-position: -50px -110px;
+  background-repeat: no-repeat;
+  background-size: 106%;
+  z-index: 1; }
+
+/* COLORS DEFINITION */
+/* ASSIGNMENT TO PAGE PARTS */
+/* HOLISTIC */
+/* HOME */
+/* MUSIC */
+/* PHOTOS */
+/* VIDEOS */
+/* CONTACT */
+@font-face {
+  font-family: "Century Gothic Regular";
+  src: url(09f6b2ba02572f19a7d7dd2b5f6494ad.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Century Gothic Bold";
+  src: url(bc420c1c2b98e2ee8b2a75c1ce1fe083.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Century Gothic Italic";
+  src: url(89d1d828dd7407e8e5ff6aa83cc5b294.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Century Gothic Bold Italic";
+  src: url(abd76d61050c97ab0e7bf2db2d9bd5ad.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Classica One";
+  src: url(97052935e5f6b5b33e93cf197faf129e.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Cookie Regular";
+  src: url(f20b07e1e1ac014b4fd4a86b9c10cfef.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Great Vibes Regular";
+  src: url(5bf06596a053153248631d74f9fc4e28.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Kaushan Script Regular";
+  src: url(51d11a72b39f33f909abddc723d66f03.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Sacramento Regular";
+  src: url(c3264a2601f855aef183e1892c5504db.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Satisfy Regular";
+  src: url(50c629cb64b3a3c3ea5df76558888e9c.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Shelly Allegro C";
+  src: url(32287a1491c8739be360bb2e38b3644a.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Tangerine Bold";
+  src: url(ba83db53ea0a5abd5eaea8595793c9df.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Tangerine Regular";
+  src: url(13dd711b61d355fd1609732d1f22249f.ttf) format("truetype"); }
+
+section.latest-events {
+  width: 100%;
+  height: 550px;
+  background-color: #FFD3D3;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  z-index: 1; }
+  section.latest-events h1 {
+    margin-top: 10px; }
+
+div.latest-events__events {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  position: relative;
+  width: 100%;
+  height: 500px; }
+
+div.latest-events__background-text {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 0;
+  font-size: 80px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: start;
+      align-items: flex-start;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  color: white;
+  width: 100%; }
+  div.latest-events__background-text span {
+    white-space: nowrap; }
+
+div.latest-events__col {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  width: 33.33%;
+  height: 100%;
+  z-index: 1; }
+  div.latest-events__col:nth-child(1) {
+    margin-left: 10px; }
+  div.latest-events__col:nth-child(3) {
+    margin-right: 10px; }
+
+div.latest-events__event {
+  background-color: rgba(255, 255, 255, 0.5);
+  width: calc(100% - 30px);
+  height: calc(100% - 50px);
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-align: center;
+      align-items: center;
+  padding: 20px;
+  position: relative; }
+  div.latest-events__event span {
+    font-family: "Century Gothic Regular";
+    font-size: 27px;
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+    border-left: 2px solid black;
+    margin-bottom: 8px;
+    padding-left: 5px; }
+  div.latest-events__event p {
+    margin-top: 20px;
+    letter-spacing: 1px; }
+  div.latest-events__event button {
+    position: absolute;
+    outline: none;
+    background-color: #FFD3D3;
+    border: none;
+    font-family: "Century Gothic Regular";
+    width: 164px;
+    height: 34px;
+    font-size: 14px;
+    bottom: 20px; }
+
+/* COLORS DEFINITION */
+/* ASSIGNMENT TO PAGE PARTS */
+/* HOLISTIC */
+/* HOME */
+/* MUSIC */
+/* PHOTOS */
+/* VIDEOS */
+/* CONTACT */
+@font-face {
+  font-family: "Century Gothic Regular";
+  src: url(09f6b2ba02572f19a7d7dd2b5f6494ad.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Century Gothic Bold";
+  src: url(bc420c1c2b98e2ee8b2a75c1ce1fe083.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Century Gothic Italic";
+  src: url(89d1d828dd7407e8e5ff6aa83cc5b294.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Century Gothic Bold Italic";
+  src: url(abd76d61050c97ab0e7bf2db2d9bd5ad.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Classica One";
+  src: url(97052935e5f6b5b33e93cf197faf129e.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Cookie Regular";
+  src: url(f20b07e1e1ac014b4fd4a86b9c10cfef.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Great Vibes Regular";
+  src: url(5bf06596a053153248631d74f9fc4e28.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Kaushan Script Regular";
+  src: url(51d11a72b39f33f909abddc723d66f03.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Sacramento Regular";
+  src: url(c3264a2601f855aef183e1892c5504db.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Satisfy Regular";
+  src: url(50c629cb64b3a3c3ea5df76558888e9c.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Shelly Allegro C";
+  src: url(32287a1491c8739be360bb2e38b3644a.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Tangerine Bold";
+  src: url(ba83db53ea0a5abd5eaea8595793c9df.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Tangerine Regular";
+  src: url(13dd711b61d355fd1609732d1f22249f.ttf) format("truetype"); }
+
+section.new-music {
+  width: 100%;
+  height: 250px;
+  background-color: #FFADAD;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  z-index: 1; }
+
+div.new-music__albums {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  -ms-flex-align: center;
+      align-items: center;
+  width: 100%;
+  height: 200px;
+  padding: 20px 60px; }
+
+div.new-music__album {
+  width: 160px;
+  height: 160px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.3); }
+  div.new-music__album:before, div.new-music__album:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    top: 10px;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    border-radius: 100px / 10px; }
+  div.new-music__album:after {
+    right: 10px;
+    left: auto;
+    transform: skew(8deg) rotate(3deg); }
+  div.new-music__album:nth-child(1) {
+    background-image: url(e9c14dfb83d37dcacf1ef4a980e63bbd.jpeg); }
+  div.new-music__album:nth-child(2) {
+    background-image: url(50fa42c025962b9945d65587bab109e4.jpg); }
+  div.new-music__album:nth-child(3) {
+    background-image: url(642238690ac30b83f0449b95a9cc4d37.jpg); }
+  div.new-music__album:nth-child(4) {
+    background-image: url(1b96876a709c78f3b65b40ece08dda1f.jpg); }
+
+div.new-music__album-description {
+  height: 30px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  bottom: 0;
+  padding: 5px; }
+
+/* COLORS DEFINITION */
+/* ASSIGNMENT TO PAGE PARTS */
+/* HOLISTIC */
+/* HOME */
+/* MUSIC */
+/* PHOTOS */
+/* VIDEOS */
+/* CONTACT */
+@font-face {
+  font-family: "Century Gothic Regular";
+  src: url(09f6b2ba02572f19a7d7dd2b5f6494ad.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Century Gothic Bold";
+  src: url(bc420c1c2b98e2ee8b2a75c1ce1fe083.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Century Gothic Italic";
+  src: url(89d1d828dd7407e8e5ff6aa83cc5b294.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Century Gothic Bold Italic";
+  src: url(abd76d61050c97ab0e7bf2db2d9bd5ad.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Classica One";
+  src: url(97052935e5f6b5b33e93cf197faf129e.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Cookie Regular";
+  src: url(f20b07e1e1ac014b4fd4a86b9c10cfef.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Great Vibes Regular";
+  src: url(5bf06596a053153248631d74f9fc4e28.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Kaushan Script Regular";
+  src: url(51d11a72b39f33f909abddc723d66f03.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Sacramento Regular";
+  src: url(c3264a2601f855aef183e1892c5504db.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Satisfy Regular";
+  src: url(50c629cb64b3a3c3ea5df76558888e9c.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Shelly Allegro C";
+  src: url(32287a1491c8739be360bb2e38b3644a.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Tangerine Bold";
+  src: url(ba83db53ea0a5abd5eaea8595793c9df.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Tangerine Regular";
+  src: url(13dd711b61d355fd1609732d1f22249f.ttf) format("truetype"); }
+
+section.listen {
+  width: 100%;
+  background-color: #FFD3D3;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  padding: 20px 60px;
+  z-index: 1; }
+  section.listen iframe {
+    margin-top: 20px;
+    position: relative;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.3); }
+    section.listen iframe:before, section.listen iframe:after {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+      top: 10px;
+      bottom: 10px;
+      left: 0;
+      right: 0;
+      border-radius: 100px / 10px; }
+    section.listen iframe:after {
+      right: 10px;
+      left: auto;
+      transform: skew(8deg) rotate(3deg); }
+
+/* COLORS DEFINITION */
+/* ASSIGNMENT TO PAGE PARTS */
+/* HOLISTIC */
+/* HOME */
+/* MUSIC */
+/* PHOTOS */
+/* VIDEOS */
+/* CONTACT */
+@font-face {
+  font-family: "Century Gothic Regular";
+  src: url(09f6b2ba02572f19a7d7dd2b5f6494ad.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Century Gothic Bold";
+  src: url(bc420c1c2b98e2ee8b2a75c1ce1fe083.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Century Gothic Italic";
+  src: url(89d1d828dd7407e8e5ff6aa83cc5b294.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Century Gothic Bold Italic";
+  src: url(abd76d61050c97ab0e7bf2db2d9bd5ad.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Classica One";
+  src: url(97052935e5f6b5b33e93cf197faf129e.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Cookie Regular";
+  src: url(f20b07e1e1ac014b4fd4a86b9c10cfef.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Great Vibes Regular";
+  src: url(5bf06596a053153248631d74f9fc4e28.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Kaushan Script Regular";
+  src: url(51d11a72b39f33f909abddc723d66f03.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Sacramento Regular";
+  src: url(c3264a2601f855aef183e1892c5504db.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Satisfy Regular";
+  src: url(50c629cb64b3a3c3ea5df76558888e9c.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Shelly Allegro C";
+  src: url(32287a1491c8739be360bb2e38b3644a.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Tangerine Bold";
+  src: url(ba83db53ea0a5abd5eaea8595793c9df.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Tangerine Regular";
+  src: url(13dd711b61d355fd1609732d1f22249f.ttf) format("truetype"); }
+
+section.newsletter {
+  width: 100%;
+  height: 400px;
+  background-color: #FFADAD;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  padding: 20px 60px; }
+  section.newsletter form {
+    width: 33.33%;
+    height: 100%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+    -ms-flex-align: center;
+        align-items: center;
+    padding: 0 20px; }
+    section.newsletter form input,
+    section.newsletter form select {
+      width: 100%;
+      background-color: white;
+      outline: none;
+      border: none;
+      height: 40px;
+      font-family: "Century Gothic Regular";
+      padding: 10px; }
+  section.newsletter div.vertical-line {
+    height: 100%;
+    border-right: 5px solid black; }
+
+div.signup-confirmation {
+  width: 33.33%;
+  height: 100%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  padding: 30px; }
+  div.signup-confirmation h1 {
+    text-align: center; }
+
+div.newsletter__about {
+  width: 33.33%;
+  height: 100%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  -ms-flex-align: center;
+      align-items: center;
+  padding: 0 20px; }
+  div.newsletter__about p {
+    text-align: justify; }
+
+div.newsletter__cols {
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  -ms-flex-align: center;
+      align-items: center; }
+
+div.newsletter_col {
+  width: 33.33%;
+  height: 100%;
+  position: relative;
+  box-shadow: 0 2px 50px rgba(0, 0, 0, 0.3); }
+  div.newsletter_col:before, div.newsletter_col:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    top: 10px;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    border-radius: 100px / 10px; }
+  div.newsletter_col:after {
+    right: 10px;
+    left: auto;
+    transform: skew(8deg) rotate(3deg); }
+
+div.page-home {
+  width: 960px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center; }
+  div.page-home div.newsletter-and-footer-container {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 0;
+    width: 960px; }
+  div.page-home div.compensator {
+    height: 450px; }
+
+/* COLORS DEFINITION */
+/* ASSIGNMENT TO PAGE PARTS */
+/* HOLISTIC */
+/* HOME */
+/* MUSIC */
+/* PHOTOS */
+/* VIDEOS */
+/* CONTACT */
+@font-face {
+  font-family: "Century Gothic Regular";
+  src: url(09f6b2ba02572f19a7d7dd2b5f6494ad.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Century Gothic Bold";
+  src: url(bc420c1c2b98e2ee8b2a75c1ce1fe083.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Century Gothic Italic";
+  src: url(89d1d828dd7407e8e5ff6aa83cc5b294.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Century Gothic Bold Italic";
+  src: url(abd76d61050c97ab0e7bf2db2d9bd5ad.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Classica One";
+  src: url(97052935e5f6b5b33e93cf197faf129e.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Cookie Regular";
+  src: url(f20b07e1e1ac014b4fd4a86b9c10cfef.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Great Vibes Regular";
+  src: url(5bf06596a053153248631d74f9fc4e28.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Kaushan Script Regular";
+  src: url(51d11a72b39f33f909abddc723d66f03.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Sacramento Regular";
+  src: url(c3264a2601f855aef183e1892c5504db.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Satisfy Regular";
+  src: url(50c629cb64b3a3c3ea5df76558888e9c.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Shelly Allegro C";
+  src: url(32287a1491c8739be360bb2e38b3644a.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Tangerine Bold";
+  src: url(ba83db53ea0a5abd5eaea8595793c9df.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Tangerine Regular";
+  src: url(13dd711b61d355fd1609732d1f22249f.ttf) format("truetype"); }
+
+/* COLORS DEFINITION */
+/* ASSIGNMENT TO PAGE PARTS */
+/* HOLISTIC */
+/* HOME */
+/* MUSIC */
+/* PHOTOS */
+/* VIDEOS */
+/* CONTACT */
+@font-face {
+  font-family: "Century Gothic Regular";
+  src: url(09f6b2ba02572f19a7d7dd2b5f6494ad.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Century Gothic Bold";
+  src: url(bc420c1c2b98e2ee8b2a75c1ce1fe083.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Century Gothic Italic";
+  src: url(89d1d828dd7407e8e5ff6aa83cc5b294.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Century Gothic Bold Italic";
+  src: url(abd76d61050c97ab0e7bf2db2d9bd5ad.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Classica One";
+  src: url(97052935e5f6b5b33e93cf197faf129e.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Cookie Regular";
+  src: url(f20b07e1e1ac014b4fd4a86b9c10cfef.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Great Vibes Regular";
+  src: url(5bf06596a053153248631d74f9fc4e28.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Kaushan Script Regular";
+  src: url(51d11a72b39f33f909abddc723d66f03.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Sacramento Regular";
+  src: url(c3264a2601f855aef183e1892c5504db.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Satisfy Regular";
+  src: url(50c629cb64b3a3c3ea5df76558888e9c.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Shelly Allegro C";
+  src: url(32287a1491c8739be360bb2e38b3644a.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Tangerine Bold";
+  src: url(ba83db53ea0a5abd5eaea8595793c9df.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Tangerine Regular";
+  src: url(13dd711b61d355fd1609732d1f22249f.ttf) format("truetype"); }
+
+div.section-music__singles {
+  background-color: #FFADAD;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-direction: column;
+      flex-direction: column; }
+  div.section-music__singles span {
+    font-size: 20px;
+    margin-top: 20px; }
+
+div.section-music__singles__covers {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  -ms-flex-align: center;
+      align-items: center;
+  width: 100%;
+  height: 200px;
+  padding: 20px 60px; }
+
+div.singles__cover {
+  width: 160px;
+  height: 160px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.3); }
+  div.singles__cover:before, div.singles__cover:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    top: 10px;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    border-radius: 100px / 10px; }
+  div.singles__cover:after {
+    right: 10px;
+    left: auto;
+    transform: skew(8deg) rotate(3deg); }
+  div.singles__cover:nth-child(1) {
+    background-image: url(e9c14dfb83d37dcacf1ef4a980e63bbd.jpeg); }
+  div.singles__cover:nth-child(2) {
+    background-image: url(50fa42c025962b9945d65587bab109e4.jpg); }
+  div.singles__cover:nth-child(3) {
+    background-image: url(642238690ac30b83f0449b95a9cc4d37.jpg); }
+  div.singles__cover:nth-child(4) {
+    background-image: url(1b96876a709c78f3b65b40ece08dda1f.jpg); }
+
+div.singles__cover-description {
+  height: 30px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  bottom: 0;
+  padding: 5px; }
+
+/* COLORS DEFINITION */
+/* ASSIGNMENT TO PAGE PARTS */
+/* HOLISTIC */
+/* HOME */
+/* MUSIC */
+/* PHOTOS */
+/* VIDEOS */
+/* CONTACT */
+@font-face {
+  font-family: "Century Gothic Regular";
+  src: url(09f6b2ba02572f19a7d7dd2b5f6494ad.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Century Gothic Bold";
+  src: url(bc420c1c2b98e2ee8b2a75c1ce1fe083.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Century Gothic Italic";
+  src: url(89d1d828dd7407e8e5ff6aa83cc5b294.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Century Gothic Bold Italic";
+  src: url(abd76d61050c97ab0e7bf2db2d9bd5ad.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Classica One";
+  src: url(97052935e5f6b5b33e93cf197faf129e.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Cookie Regular";
+  src: url(f20b07e1e1ac014b4fd4a86b9c10cfef.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Great Vibes Regular";
+  src: url(5bf06596a053153248631d74f9fc4e28.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Kaushan Script Regular";
+  src: url(51d11a72b39f33f909abddc723d66f03.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Sacramento Regular";
+  src: url(c3264a2601f855aef183e1892c5504db.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Satisfy Regular";
+  src: url(50c629cb64b3a3c3ea5df76558888e9c.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Shelly Allegro C";
+  src: url(32287a1491c8739be360bb2e38b3644a.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Tangerine Bold";
+  src: url(ba83db53ea0a5abd5eaea8595793c9df.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Tangerine Regular";
+  src: url(13dd711b61d355fd1609732d1f22249f.ttf) format("truetype"); }
+
+div.section-music__albums {
+  background-color: #FFD3D3;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-direction: column;
+      flex-direction: column; }
+  div.section-music__albums span {
+    font-size: 20px;
+    margin-top: 20px; }
+
+div.section-music__albums__covers {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  -ms-flex-align: center;
+      align-items: center;
+  width: 100%;
+  height: 200px;
+  padding: 20px 60px; }
+
+div.album__cover {
+  width: 160px;
+  height: 160px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.3); }
+  div.album__cover:before, div.album__cover:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    top: 10px;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    border-radius: 100px / 10px; }
+  div.album__cover:after {
+    right: 10px;
+    left: auto;
+    transform: skew(8deg) rotate(3deg); }
+  div.album__cover:nth-child(1) {
+    background-image: url(e9c14dfb83d37dcacf1ef4a980e63bbd.jpeg); }
+  div.album__cover:nth-child(2) {
+    background-image: url(50fa42c025962b9945d65587bab109e4.jpg); }
+  div.album__cover:nth-child(3) {
+    background-image: url(642238690ac30b83f0449b95a9cc4d37.jpg); }
+  div.album__cover:nth-child(4) {
+    background-image: url(1b96876a709c78f3b65b40ece08dda1f.jpg); }
+
+div.album__cover-description {
+  height: 30px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  bottom: 0;
+  padding: 5px; }
+
+/* COLORS DEFINITION */
+/* ASSIGNMENT TO PAGE PARTS */
+/* HOLISTIC */
+/* HOME */
+/* MUSIC */
+/* PHOTOS */
+/* VIDEOS */
+/* CONTACT */
+@font-face {
+  font-family: "Century Gothic Regular";
+  src: url(09f6b2ba02572f19a7d7dd2b5f6494ad.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Century Gothic Bold";
+  src: url(bc420c1c2b98e2ee8b2a75c1ce1fe083.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Century Gothic Italic";
+  src: url(89d1d828dd7407e8e5ff6aa83cc5b294.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Century Gothic Bold Italic";
+  src: url(abd76d61050c97ab0e7bf2db2d9bd5ad.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Classica One";
+  src: url(97052935e5f6b5b33e93cf197faf129e.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Cookie Regular";
+  src: url(f20b07e1e1ac014b4fd4a86b9c10cfef.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Great Vibes Regular";
+  src: url(5bf06596a053153248631d74f9fc4e28.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Kaushan Script Regular";
+  src: url(51d11a72b39f33f909abddc723d66f03.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Sacramento Regular";
+  src: url(c3264a2601f855aef183e1892c5504db.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Satisfy Regular";
+  src: url(50c629cb64b3a3c3ea5df76558888e9c.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Shelly Allegro C";
+  src: url(32287a1491c8739be360bb2e38b3644a.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Tangerine Bold";
+  src: url(ba83db53ea0a5abd5eaea8595793c9df.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Tangerine Regular";
+  src: url(13dd711b61d355fd1609732d1f22249f.ttf) format("truetype"); }
+
+div.section-music__eps {
+  background-color: #FFADAD;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-direction: column;
+      flex-direction: column; }
+  div.section-music__eps span {
+    font-size: 20px;
+    margin-top: 20px; }
+
+div.section-music__eps__covers {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  -ms-flex-align: center;
+      align-items: center;
+  width: 100%;
+  height: 200px;
+  padding: 20px 60px; }
+
+div.ep__cover {
+  width: 160px;
+  height: 160px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.3); }
+  div.ep__cover:before, div.ep__cover:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    top: 10px;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    border-radius: 100px / 10px; }
+  div.ep__cover:after {
+    right: 10px;
+    left: auto;
+    transform: skew(8deg) rotate(3deg); }
+  div.ep__cover:nth-child(1) {
+    background-image: url(e9c14dfb83d37dcacf1ef4a980e63bbd.jpeg); }
+  div.ep__cover:nth-child(2) {
+    background-image: url(50fa42c025962b9945d65587bab109e4.jpg); }
+  div.ep__cover:nth-child(3) {
+    background-image: url(642238690ac30b83f0449b95a9cc4d37.jpg); }
+  div.ep__cover:nth-child(4) {
+    background-image: url(1b96876a709c78f3b65b40ece08dda1f.jpg); }
+
+div.ep__cover-description {
+  height: 30px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  bottom: 0;
+  padding: 5px; }
+
+section.section-music {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  width: 100%; }
+
+div.section__title,
+div.section-music__singles,
+div.section-music__albums,
+div.section-music__eps {
+  width: 100%; }
+
+div.section__title {
+  background-color: #FFD3D3;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center; }
+  div.section__title span {
+    font-size: 180px;
+    color: white; }
+
+/* COLORS DEFINITION */
+/* ASSIGNMENT TO PAGE PARTS */
+/* HOLISTIC */
+/* HOME */
+/* MUSIC */
+/* PHOTOS */
+/* VIDEOS */
+/* CONTACT */
+@font-face {
+  font-family: "Century Gothic Regular";
+  src: url(09f6b2ba02572f19a7d7dd2b5f6494ad.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Century Gothic Bold";
+  src: url(bc420c1c2b98e2ee8b2a75c1ce1fe083.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Century Gothic Italic";
+  src: url(89d1d828dd7407e8e5ff6aa83cc5b294.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Century Gothic Bold Italic";
+  src: url(abd76d61050c97ab0e7bf2db2d9bd5ad.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Classica One";
+  src: url(97052935e5f6b5b33e93cf197faf129e.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Cookie Regular";
+  src: url(f20b07e1e1ac014b4fd4a86b9c10cfef.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Great Vibes Regular";
+  src: url(5bf06596a053153248631d74f9fc4e28.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Kaushan Script Regular";
+  src: url(51d11a72b39f33f909abddc723d66f03.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Sacramento Regular";
+  src: url(c3264a2601f855aef183e1892c5504db.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Satisfy Regular";
+  src: url(50c629cb64b3a3c3ea5df76558888e9c.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Shelly Allegro C";
+  src: url(32287a1491c8739be360bb2e38b3644a.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Tangerine Bold";
+  src: url(ba83db53ea0a5abd5eaea8595793c9df.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Tangerine Regular";
+  src: url(13dd711b61d355fd1609732d1f22249f.ttf) format("truetype"); }
+
+div.page-videos__left {
+  background-color: #FFADAD; }
+
+div.page-videos__right {
+  background-color: #FFD3D3; }
+  div.page-videos__right span,
+  div.page-videos__right p {
+    text-align: right; }
+
+div.page-videos__left,
+div.page-videos__right {
+  width: 960px;
+  height: 355px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  -ms-flex-align: center;
+      align-items: center;
+  padding: 20px 20px; }
+  div.page-videos__left div,
+  div.page-videos__right div {
+    width: 330px;
+    background-color: #FFE6E6;
+    padding: 20px;
+    height: 100%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-pack: center;
+        justify-content: center; }
+  div.page-videos__left span,
+  div.page-videos__right span {
+    font-size: 27px;
+    font-family: "Century Gothic Bold";
+    width: 100%; }
+  div.page-videos__left p,
+  div.page-videos__right p {
+    letter-spacing: 1px;
+    margin-top: 20px; }
+  div.page-videos__left iframe,
+  div.page-videos__right iframe {
+    position: relative;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.3); }
+    div.page-videos__left iframe:before, div.page-videos__left iframe:after,
+    div.page-videos__right iframe:before,
+    div.page-videos__right iframe:after {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+      top: 10px;
+      bottom: 10px;
+      left: 0;
+      right: 0;
+      border-radius: 100px / 10px; }
+    div.page-videos__left iframe:after,
+    div.page-videos__right iframe:after {
+      right: 10px;
+      left: auto;
+      transform: skew(8deg) rotate(3deg); }
+
+/* COLORS DEFINITION */
+/* ASSIGNMENT TO PAGE PARTS */
+/* HOLISTIC */
+/* HOME */
+/* MUSIC */
+/* PHOTOS */
+/* VIDEOS */
+/* CONTACT */
+@font-face {
+  font-family: "Century Gothic Regular";
+  src: url(09f6b2ba02572f19a7d7dd2b5f6494ad.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Century Gothic Bold";
+  src: url(bc420c1c2b98e2ee8b2a75c1ce1fe083.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Century Gothic Italic";
+  src: url(89d1d828dd7407e8e5ff6aa83cc5b294.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Century Gothic Bold Italic";
+  src: url(abd76d61050c97ab0e7bf2db2d9bd5ad.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Classica One";
+  src: url(97052935e5f6b5b33e93cf197faf129e.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Cookie Regular";
+  src: url(f20b07e1e1ac014b4fd4a86b9c10cfef.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Great Vibes Regular";
+  src: url(5bf06596a053153248631d74f9fc4e28.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Kaushan Script Regular";
+  src: url(51d11a72b39f33f909abddc723d66f03.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Sacramento Regular";
+  src: url(c3264a2601f855aef183e1892c5504db.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Satisfy Regular";
+  src: url(50c629cb64b3a3c3ea5df76558888e9c.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Shelly Allegro C";
+  src: url(32287a1491c8739be360bb2e38b3644a.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Tangerine Bold";
+  src: url(ba83db53ea0a5abd5eaea8595793c9df.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Tangerine Regular";
+  src: url(13dd711b61d355fd1609732d1f22249f.ttf) format("truetype"); }
+
+div.page-photos-gallery {
+  background-color: #FFADAD; }
+
+/* COLORS DEFINITION */
+/* ASSIGNMENT TO PAGE PARTS */
+/* HOLISTIC */
+/* HOME */
+/* MUSIC */
+/* PHOTOS */
+/* VIDEOS */
+/* CONTACT */
+@font-face {
+  font-family: "Century Gothic Regular";
+  src: url(09f6b2ba02572f19a7d7dd2b5f6494ad.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Century Gothic Bold";
+  src: url(bc420c1c2b98e2ee8b2a75c1ce1fe083.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Century Gothic Italic";
+  src: url(89d1d828dd7407e8e5ff6aa83cc5b294.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Century Gothic Bold Italic";
+  src: url(abd76d61050c97ab0e7bf2db2d9bd5ad.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Classica One";
+  src: url(97052935e5f6b5b33e93cf197faf129e.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Cookie Regular";
+  src: url(f20b07e1e1ac014b4fd4a86b9c10cfef.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Great Vibes Regular";
+  src: url(5bf06596a053153248631d74f9fc4e28.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Kaushan Script Regular";
+  src: url(51d11a72b39f33f909abddc723d66f03.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Sacramento Regular";
+  src: url(c3264a2601f855aef183e1892c5504db.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Satisfy Regular";
+  src: url(50c629cb64b3a3c3ea5df76558888e9c.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Shelly Allegro C";
+  src: url(32287a1491c8739be360bb2e38b3644a.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Tangerine Bold";
+  src: url(ba83db53ea0a5abd5eaea8595793c9df.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Tangerine Regular";
+  src: url(13dd711b61d355fd1609732d1f22249f.ttf) format("truetype"); }
+
+div.page-contact__main {
+  background-color: #FFADAD;
+  height: 500px;
+  width: 100%;
+  padding: 20px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  -ms-flex-align: center;
+      align-items: center; }
+  div.page-contact__main h1 {
+    font-size: 20px;
+    font-family: "Century Gothic Bold"; }
+  div.page-contact__main .confirmation {
+    -ms-flex-pack: center !important;
+        justify-content: center !important; }
+  div.page-contact__main div.page-contact__business,
+  div.page-contact__main div.page-contact__direct {
+    padding: 20px;
+    background-color: #FFD3D3;
+    width: 49%;
+    height: 100%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+    -ms-flex-align: center;
+        align-items: center; }
+    div.page-contact__main div.page-contact__business form,
+    div.page-contact__main div.page-contact__direct form {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: column;
+          flex-direction: column;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+      -ms-flex-align: center;
+          align-items: center;
+      height: 78%;
+      width: 100%; }
+      div.page-contact__main div.page-contact__business form div,
+      div.page-contact__main div.page-contact__direct form div {
+        width: 100%;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: row;
+            flex-direction: row;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+        -ms-flex-align: center;
+            align-items: center;
+        height: 30px;
+        padding: 0; }
+        div.page-contact__main div.page-contact__business form div input,
+        div.page-contact__main div.page-contact__business form div select,
+        div.page-contact__main div.page-contact__direct form div input,
+        div.page-contact__main div.page-contact__direct form div select {
+          width: 48%;
+          background-color: white;
+          outline: none;
+          border: none;
+          height: 40px;
+          font-family: "Century Gothic Regular";
+          padding: 10px;
+          color: black; }
+      div.page-contact__main div.page-contact__business form input,
+      div.page-contact__main div.page-contact__direct form input {
+        width: 100%;
+        background-color: white;
+        outline: none;
+        border: none;
+        height: 40px;
+        font-family: "Century Gothic Regular";
+        padding: 10px;
+        color: black; }
+      div.page-contact__main div.page-contact__business form textarea,
+      div.page-contact__main div.page-contact__direct form textarea {
+        width: 100%;
+        background-color: white;
+        outline: none;
+        border: none;
+        height: 180px;
+        font-family: "Century Gothic Regular";
+        padding: 10px;
+        color: black; }
+  div.page-contact__main a {
+    color: black; }
+
+div.main-container {
+  width: 960px;
+  margin: 0 auto;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column; }
