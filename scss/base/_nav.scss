@@ -1,12 +1,15 @@
-@import '../helpers/all';
+@import "../helpers/all";
 nav.nav {
-    width: 960px;
     height: 70px;
     background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     z-index: 2;
+    width: 100%;
+    @media only screen and (min-width: 1224px) {
+        width: 960px;
+    }
 }
 
 div.nav__logo,
@@ -25,7 +28,7 @@ div.nav__logo {
     height: 100%;
     width: 150px;
     font-size: 70px;
-    font-family: 'Tangerine Bold';
+    font-family: "Tangerine Bold";
 }
 
 div.nav__menu-left,
@@ -37,7 +40,17 @@ div.nav__menu-right {
         margin: 0 20px;
     }
     a {
-        font-size: 20px;
+        font-size: 28px;
+        @media only screen and (min-width: 1224px) {
+            font-size: 20px;
+        }
+    }
+}
+
+div.nav__menu-right {
+    margin-left: 20px;
+    @media only screen and (min-width: 1224px) {
+        margin-left: 0;
     }
 }
 
