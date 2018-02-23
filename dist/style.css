@@ -784,7 +784,7 @@ div.latest-events__event {
   @media only screen and (min-width: 1224px) {
     div.latest-events__event {
       width: calc(100% - 30px);
-      height: calc(100% - 50px);
+      height: calc(100% - 50px) !important;
       -ms-flex-direction: column;
           flex-direction: column;
       height: 100px;
