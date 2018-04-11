@@ -1,122 +1,95 @@
 @import "../../helpers/all";
 section.latest-events {
-    width: 100%;
-    background-color: $homePageLatestEvents;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    z-index: 1;
-    height: 900px;
-    @media only screen and (min-width: 1224px) {
-        height: 550px;
-    }
-    h1 {
-        margin-top: 10px;
-    }
+  width: 100%;
+  background-color: $homePageLatestEvents;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 1;
+  height: 550px;
+
+  h1 {
+    margin-top: 10px;
+  }
 }
 
 div.latest-events__events {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    flex-direction: column;
-    width: 100%;
-    height: 830px;
-    padding: 20px;
-    @media only screen and (min-width: 1224px) {
-        height: 500px;
-        flex-direction: row;
-        padding: initial;
-    }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  flex-direction: row;
+  width: 100%;
+  height: 500px;
 }
 
 div.latest-events__background-text {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 0;
-    font-size: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-direction: column;
-    color: white;
-    width: 100%;
-    span {
-        white-space: nowrap;
-    }
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 0;
+  font-size: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  color: white;
+  width: 100%;
+  span {
+    white-space: nowrap;
+  }
 }
 
 div.latest-events__col {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 245px;
-    z-index: 1;
-    width: 100%;
-    margin-top: 30px;
-    @media only screen and (min-width: 1224px) {
-        width: 33.33%;
-        height: 100%;
-        margin-top: initial;
-    }
-    &:nth-child(1) {
-        margin-left: 10px;
-    }
-    &:nth-child(3) {
-        margin-right: 10px;
-    }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  z-index: 1;
+  width: 33.33%;
+  margin-top: 30px;
+
+  &:nth-child(1) {
+    margin-left: 10px;
+  }
+  &:nth-child(3) {
+    margin-right: 10px;
+  }
 }
 
 div.latest-events__event {
-    background-color: rgba($color: white, $alpha: 0.5);
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: row; // justify-content: center;
-    align-items: center;
-    padding: 20px;
-    position: relative;
-    flex-wrap: wrap;
-    @media only screen and (min-width: 1224px) {
-        width: calc(100% - 30px);
-        height: calc(100% - 50px) !important; 
-        flex-direction: column;
-        height: 100px;
-        flex-wrap: initial;
-    }
-    span {
-        font-family: $regular;
-        font-size: 27px;
-        align-self: flex-start;
-        border-left: 2px solid black;
-        margin-bottom: 8px;
-        padding-left: 5px;
-        width: 33.33%;
-        @media only screen and (min-width: 1224px) {
-            width: initial
-        }
-    }
-    p {
-        margin-top: -110px;
-        letter-spacing: 1px;
-        font-size: 20px;
-        @media only screen and (min-width: 1224px) {
-            margin-top: 20px;
-            font-size: initial;
-        }
-    }
-    button {
-        position: absolute;
-        outline: none;
-        background-color: $homePageLatestEvents;
-        border: none;
-        font-family: $regular;
-        width: 164px;
-        height: 34px;
-        font-size: 14px;
-        bottom: 20px;
-    }
+  background-color: rgba($color: white, $alpha: 0.5);
+  width: calc(100% - 30px);
+  // height: calc(100% - 50px) !important;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  position: relative;
+
+  span {
+    font-family: $regular;
+    font-size: 27px;
+    align-self: flex-start;
+    border-left: 2px solid black;
+    margin-bottom: 8px;
+    padding-left: 5px;
+  }
+  p {
+    margin-top: 20px;
+    letter-spacing: 1px;
+  }
+  button {
+    position: absolute;
+    outline: none;
+    background-color: $homePageLatestEvents;
+    border: none;
+    font-family: $regular;
+    width: 164px;
+    height: 34px;
+    font-size: 14px;
+    bottom: 20px;
+  }
 }

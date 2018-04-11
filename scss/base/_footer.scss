@@ -1,4 +1,5 @@
 @import "../helpers/all";
+
 footer {
   width: 100%;
   height: 50px;
@@ -21,6 +22,7 @@ div.footer__icons {
 div.footer__logo {
   width: 50px;
   justify-content: center;
+
   a {
     font-family: "Tangerine Bold";
     font-size: 41px;
@@ -41,6 +43,7 @@ div.footer__icons {
 
 div.footer__copyright {
   justify-content: flex-start;
+
   span {
     font-size: 14px;
   }
@@ -52,6 +55,7 @@ div.footer__icon {
   display: flex;
   justify-content: center;
   align-items: center;
+
   i {
     font-size: 20px;
   }

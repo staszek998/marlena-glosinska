@@ -54,21 +54,17 @@ document.addEventListener("DOMContentLoaded", function() {
       if (scrollTop > 450) {
         nav.classList.add("docked");
         navCompensator.style.height = "70px";
-        console.log(`class docked added`);
       } else if (scrollTop < 450) {
         nav.classList.remove("docked");
         navCompensator.style.height = "0px";
-        console.log(`class docked removed`);
       }
     } else {
       if (scrollTop > 50) {
         nav.classList.add("docked");
         navCompensator.style.height = "70px";
-        console.log(`class docked added`);
       } else if (scrollTop < 50) {
         nav.classList.remove("docked");
         navCompensator.style.height = "0px";
-        console.log(`class docked removed`);
       }
     }
   };

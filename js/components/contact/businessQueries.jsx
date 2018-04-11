@@ -13,7 +13,6 @@ export default class BusinessQueries extends React.Component {
     this.setState({
       sent: true
     });
-    console.log(`state changed`);
   };
 
   render() {
@@ -21,7 +20,7 @@ export default class BusinessQueries extends React.Component {
       return (
         <div className="page-contact__business confirmation">
           <h1 className="page-contact__confirmation">MESSAGE SENT</h1>
-          <br/>
+          <br />
           <p>Stanisław will write you back ASAP</p>
         </div>
       );

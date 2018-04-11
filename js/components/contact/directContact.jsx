@@ -28,7 +28,6 @@ export default class DirectContact extends React.Component {
     this.setState({
       sent: true
     });
-    console.log(`state changed`);
   };
 
   render() {
